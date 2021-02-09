@@ -1,2 +1,2 @@
-# Blender-rF2-app-templates
-Blender application templates for rFactor2 Modding
+# Blender-rF2-Studio
+Blender application templates to provide a better starting point in rFactor2 Modding.
