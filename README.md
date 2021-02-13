@@ -1,5 +1,5 @@
 # Blender rF2 Studio
-# Blender Application Templates for the rFactor2 Modder
+__*Blender Application Templates for the rFactor2 Modder*__
 
 ## Introduction
 Application Templates for Blender allow re-use of configuration and contents, which is perfect for those that often have the same workflow and don't want to fiddle in the menus first before being able to actually start working on their project.
