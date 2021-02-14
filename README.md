@@ -91,7 +91,7 @@ Installation is done to the following paths. Each template has to be saved in it
 
 #### Linux
 
-`$HOME/blender/2.91/scripts/startup/bl_app_templates_user`
+`~/.config/blender/2.91/scripts/startup/bl_app_templates_user`
 
 #### Windows
 
