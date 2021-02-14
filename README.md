@@ -35,7 +35,7 @@ This template was created as a generic starting point for all rFactor2 modding p
 
 Screenshot will be included here later.
 
-### rF2 Studio > Car
+### rF2 Studio - Car
 This child-template was created with car modeling in mind. It includes additional settings, default objects, and default materials that should kickstart the car modeling process!
 - Default Object
   - half cube with mirror modifier (incl. clipping) enabled
@@ -43,7 +43,7 @@ This child-template was created with car modeling in mind. It includes additiona
 
 Screenshot will be included here later.
 
-### rF2 Studio > Track
+### rF2 Studio - Track
 This child-template was created with track modeling in mind. It includes additional settings, default objects, and default materials that should kickstart the track modeling process!
 
 Current version is the same as the Car template. This will be updated soon!
@@ -77,6 +77,13 @@ Create a new desktop shortcut to the Blender executable or copy an existing shor
 You can use any application template directly from within Blender. The installed templates are available from the File > New menu.
 
 ![Usage Screenshot](/screenshots/usage.png)
+
+### Troubleshooting
+Installation is done to the following paths. Each template has to be saved in its own folder. Only then you do have the correct entries in the menu.
+
+`$HOME/blender/2.91/scripts/startup/bl_app_templates_user`
+
+`C:\Documents and Settings\%username%\Application Data\Blender Foundation\Blender\2.XX\scripts\startup\bl_app_templates_user`
 
 ## Suggested 3rd Party Addons
 The following 3rd party addons are suggestions and recommenditions to improve the modders life. In case you have already installed the mentioned 3rd party addons, these will be automatically activated by the application templates.
