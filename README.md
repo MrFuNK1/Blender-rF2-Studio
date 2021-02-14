@@ -61,16 +61,24 @@ Screenshot will be included here later.
 ## Using the rF2 Studio Application Templates
 
 ### Using a Desktop Shortcut
+
 Create a new desktop shortcut to the Blender executable or copy an existing shortcut. Edit the shortcut's properties and add the following command line arguments after the blender executable.
 
 #### Linux
+
 `blender --app-template rF2_Studio`
+
 `blender --app-template rF2_Studio_>_Car`
+
 `blender --app-template rF2_Studio_>_Track`
 
+
 #### Windows
+
 `blender.exe --app-template rF2_Studio`
+
 `blender.exe --app-template rF2_Studio_>_Car`
+
 `blender.exe --app-template rF2_Studio_>_Track`
 
 ### Use from within Blender
@@ -79,9 +87,13 @@ You can use any application template directly from within Blender. The installed
 ![Usage Screenshot](/screenshots/usage.png)
 
 ### Troubleshooting
-Installation is done to the following paths. Each template has to be saved in its own folder. Only then you do have the correct entries in the menu.
+Installation is done to the following paths. Each template has to be saved in its own folder (e.g. "rF2 Studio"). Only then you do have the correct entries in the menu.
+
+#### Linux
 
 `$HOME/blender/2.91/scripts/startup/bl_app_templates_user`
+
+#### Windows
 
 `C:\Documents and Settings\%username%\Application Data\Blender Foundation\Blender\2.XX\scripts\startup\bl_app_templates_user`
 
