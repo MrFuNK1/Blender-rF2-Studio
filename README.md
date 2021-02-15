@@ -51,10 +51,12 @@ Current version is the same as the Car template. This will be updated soon!
 Screenshot will be included here later.
 
 ## Installation
-1. Start Blender
-2. Open the App Menu (small blender icon in the top left corner)
-3. Click on "Install Application Template..."
-4. Browse to the download location of the ZIP file, e.g.
+1. Download the template(s) (e.g. "rF2_Studio.zip") from the [releases](https://github.com/MrFuNK1/Blender-rF2-Studio/releases) 
+2. Start Blender
+3. Open the App Menu (small blender icon in the top left corner)
+4. Click on "Install Application Template..."
+5. Browse to the download location of the template(s) and select the template (e.g. "rF2_Studio.zip")
+6. Confirm and you are ready to use the template(s)! 
 
 ![Installation Screenshot](/screenshots/installation.png)
 
