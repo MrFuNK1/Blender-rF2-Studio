@@ -100,7 +100,7 @@ Installation is done to the following paths. Each template has to be saved in it
 `C:\Documents and Settings\%username%\Application Data\Blender Foundation\Blender\2.XX\scripts\startup\bl_app_templates_user`
 
 ## Suggested 3rd Party Addons
-The following 3rd party addons are suggestions and recommenditions to improve the modders life. In case you have already installed the mentioned 3rd party addons, these will be automatically activated by the application templates.
+The following 3rd party addons are suggestions and recommendations to improve the modders life. In case you have already installed the mentioned 3rd party addons, these will be automatically activated (if installed) by the application templates.
 
 Instructions on how to install addons in Blender can be found in the [official Blender manual](https://docs.blender.org/manual/en/latest/editors/preferences/addons.html?highlight=addons#enabling-and-disabling).
 
