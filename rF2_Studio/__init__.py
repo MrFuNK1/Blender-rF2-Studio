@@ -25,6 +25,7 @@ def load_handler_for_preferences(_):
 @persistent
 def load_handler_for_startup(_):
     import bpy
+    import addon_utils
     print("Changing Startup Defaults!")
 
     # Use material preview shading.
@@ -34,6 +35,18 @@ def load_handler_for_startup(_):
                 if space.type == 'VIEW_3D':
                     space.shading.type = 'SOLID'
                     space.shading.use_scene_lights = True
+
+    #enable any addon by default with 
+    #	addon_utils.enable("my_addon")
+    #disable any addon by default with
+    #	addon_utils.disable("my_addon")
+    #
+    #further settings can be made by initiating: 
+    #	addon_utils.enable(module_name, default_set=False, persistent=False, handle_error=None)
+    #
+    #via https://blender.stackexchange.com/a/32420
+    addon_utils.enable("io_rfactor2_gmt_WIP-64_bit")
+    addon_utils.enable("jmesh-tools-master")
 
 def register():
     print("Registering to Change Defaults")
