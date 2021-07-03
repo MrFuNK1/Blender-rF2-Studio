@@ -70,18 +70,18 @@ Create a new desktop shortcut to the Blender executable or copy an existing shor
 
 `blender --app-template rF2_Studio`
 
-`blender --app-template rF2_Studio_>_Car`
+`blender --app-template rF2_Studio_-_Car`
 
-`blender --app-template rF2_Studio_>_Track`
+`blender --app-template rF2_Studio_-_Track`
 
 
 #### Windows
 
 `blender.exe --app-template rF2_Studio`
 
-`blender.exe --app-template rF2_Studio_>_Car`
+`blender.exe --app-template rF2_Studio_-_Car`
 
-`blender.exe --app-template rF2_Studio_>_Track`
+`blender.exe --app-template rF2_Studio_-_Track`
 
 ### Use from within Blender
 You can use any application template directly from within Blender. The installed templates are available from the File > New menu.
